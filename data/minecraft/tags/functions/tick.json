@@ -1,5 +1,7 @@
 {
-  "values":[
-	"alloycore:main/tick"
+  "values": [
+    "alloycore:main/tick",
+    "#alloycore:tick",
+    "alloycore:main/end"
   ]
 }
