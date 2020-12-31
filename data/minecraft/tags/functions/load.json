@@ -1,5 +1,6 @@
 {
-  "values":[
-	"alloycore:main/load"
+  "values": [
+    "alloycore:main/load",
+    "#alloycore:load"
   ]
 }
