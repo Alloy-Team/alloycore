@@ -1,5 +1,8 @@
 # > Any code goes here
 
+# ID Function
+execute as @a at @s unless score @s ac_entity_id matches -9999.. run function alloycore:main/assign
+
 # Villager Click Ray
 execute as @a[scores={ac_click_v=1..}] at @s run function alloycore:villager/ray
 # Debug Villager Glow
