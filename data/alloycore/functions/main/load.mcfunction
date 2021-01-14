@@ -8,3 +8,4 @@ scoreboard objectives add ac_click_cs minecraft.used:minecraft.carrot_on_a_stick
 scoreboard objectives add ac_click_cb minecraft.used:minecraft.crossbow
 scoreboard objectives add ac_click_v minecraft.custom:minecraft.talked_to_villager
 scoreboard objectives add ac_jumped minecraft.custom:minecraft.jump
+scoreboard objectives add ac_temp dummy
