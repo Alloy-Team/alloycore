@@ -10,6 +10,7 @@ scoreboard objectives add ac_click_v minecraft.custom:minecraft.talked_to_villag
 scoreboard objectives add ac_jumped minecraft.custom:minecraft.jump
 scoreboard objectives add ac_temp dummy
 scoreboard objectives add ac_mcversion dummy
+scoreboard objectives add ac_custom_damage dummy
 
 # Version Detection for 1.16.4 and 1.17+
 scoreboard players set $ac_version ac_mcversion 16

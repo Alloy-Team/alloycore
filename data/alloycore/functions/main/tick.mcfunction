@@ -1,4 +1,5 @@
 # > Any code goes here
+execute as @a[tag=ac_custom_damage.applied_damage] run function custom_damage:attributes/remove
 
 # ID Function
 execute as @a at @s unless score @s ac_entity_id matches -9999.. run function alloycore:main/assign
