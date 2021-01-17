@@ -1,5 +1,5 @@
 # Tag
-tag @s add ac_custom_damage.applied_damage
+tag @s add custom_damage.applied_damage
 
 # Attributes
 execute if score @s custom_damage matches 1024.. run function custom_damage:attributes/1024

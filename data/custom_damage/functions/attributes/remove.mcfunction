@@ -1,5 +1,5 @@
 # Tag
-tag @s remove ac_custom_damage.applied_damage
+tag @s remove custom_damage.applied_damage
 
 # Attributes
 attribute @s generic.max_health modifier remove eccd-0-0-0-0
