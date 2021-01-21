@@ -2,7 +2,7 @@
 execute as @a[tag=custom_damage.applied_damage] run function custom_damage:attributes/remove
 
 # ID Function
-execute as @a at @s unless score @s ac_entity_id matches -9999.. run function alloycore:main/assign
+execute as @e at @s unless score @s ac_entity_id matches -9999.. run function alloycore:main/assign
 
 # Villager Click Ray
 execute as @a[scores={ac_click_v=1..}] at @s run function alloycore:villager/ray
