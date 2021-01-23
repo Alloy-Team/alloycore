@@ -5,3 +5,5 @@ scoreboard players set @a ac_jumped 0
 
 tag @e[type=villager,tag=ac_v_clicked] remove ac_v_clicked
 
+tag @a[predicate=!alloycore:player/sneak] remove ac_sneaked
+tag @a[predicate=alloycore:player/sneak] add ac_sneaked
