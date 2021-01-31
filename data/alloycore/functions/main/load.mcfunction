@@ -12,6 +12,7 @@ scoreboard objectives add ac_temp dummy
 scoreboard objectives add ac_mcversion dummy
 scoreboard objectives add custom_damage dummy
 scoreboard objectives add ac_death deathCount
+scoreboard objectives add ac_hits minecraft.custom:minecraft.damage_dealt
 
 # Version Detection for 1.16.4 and 1.17+
 scoreboard players set $ac_version ac_mcversion 16
