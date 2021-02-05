@@ -17,3 +17,8 @@ scoreboard objectives add ac_hits minecraft.custom:minecraft.damage_dealt
 # Version Detection for 1.16.4 and 1.17+
 scoreboard players set $ac_version ac_mcversion 16
 function alloycore:version/17
+
+# Schedule Tags
+schedule function #alloycore:quarsec 5t
+schedule function #alloycore:halfsec 10t
+schedule function #alloycore:sec 20t
