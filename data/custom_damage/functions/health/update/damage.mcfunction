@@ -1,5 +1,6 @@
 # Simulate effect
-effect give @s instant_damage 1 30 true
+effect give @s[type=!#alloycore:undead] instant_damage 1 30 true
+effect give @s[type=#alloycore:undead] instant_health 1 30 true
 
 # Give attributes
 function custom_damage:attributes/give
