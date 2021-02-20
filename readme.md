@@ -5,4 +5,6 @@ The function is run at the position of the chest so all you would need to do is 
 `loot insert ~ ~ ~ loot <loot table here>`
 
 For minecart chests (only used by `abandoned_mineshaft` table), you'll have to stick to spawning the item like this:  
-`loot spawn ~ ~ ~ loot <loot table here>`
+`loot spawn ~ ~ ~ loot <loot table here>`  
+Or replacing the first slot of the chest (if you're only placing one item) like this:  
+`loot replace entity @e[type=chest_minecart, distance=0..1, limit=1] container.0 loot <loot table here> `
