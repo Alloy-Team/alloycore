@@ -6,5 +6,6 @@ The function is run at the position of the chest so all you would need to do is 
 
 For minecart chests (only used by `abandoned_mineshaft` table), you'll have to stick to spawning the item like this:  
 `loot spawn ~ ~ ~ loot <loot table here>`  
-Or replacing the first slot of the chest (if you're only placing one item) like this:  
-`loot replace entity @e[type=chest_minecart, distance=0..1, limit=1] container.0 loot <loot table here> `
+Or replacing the first slot of the chest like this:  
+`loot replace entity @e[type=chest_minecart, distance=0..1, limit=1] container.0 loot <loot table here> `  
+Keep in mind this will replace the items already in the chest minecart in order from left to right, top to bottom, for every item in your loot table. This has the chance to delete items in others' loot tables so keep that in mind.
