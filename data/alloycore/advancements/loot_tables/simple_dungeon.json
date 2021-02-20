@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "aml:dungeon": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/simple_dungeon"
+            }
+        }
+    },
+    "rewards": {
+        "function": "alloycore:loot_tables/simple_dungeon"
+    }
+}
