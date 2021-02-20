@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "open": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/village/village_toolsmith"
+            }
+        }
+    },
+    "rewards": {
+        "function": "alloycore:loot_tables/village/village_toolsmith"
+    }
+}

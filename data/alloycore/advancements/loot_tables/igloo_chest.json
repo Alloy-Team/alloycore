@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "open": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/igloo_chest"
+            }
+        }
+    },
+    "rewards": {
+        "function": "alloycore:loot_tables/igloo_chest"
+    }
+}

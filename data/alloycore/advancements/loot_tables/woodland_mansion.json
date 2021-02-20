@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "open": {
+            "trigger": "player_generates_container_loot",
+            "conditions": {
+                "loot_table": "minecraft:chests/woodland_mansion"
+            }
+        }
+    },
+    "rewards": {
+        "function": "alloycore:loot_tables/woodland_mansion"
+    }
+}
